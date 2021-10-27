@@ -1,0 +1,11 @@
+* Procurar saber mais sobre o DoteEnv e porque ele permitiu acessar as variaveis do .env sem importar - Conversei com o Luis basicamente o doteEnv da um esporte nas variáveis do .env, e você consegue importar elas onde precisar
+
+* Porque ela declarou umas const com a variável entre {} no app.ts - É a desestruturação do javascript, basicamente ele declara a variável com o atributo que tem no objeto entre {}, e coloca = o objeto, a linguagem já entende que tem que pegar o código do objeto request.query
+
+* Porque ela usou uma tag async no authenticateUserService.ts(dentro da class de mesmo nome) - asyn e await são comandos para esperar respostas ou fazer simultânemanete, entendi bem o que faz vendo os exemplos porém não entendi quando usar
+
+* Porque quando eu instanciei o new AuthenticateUserService(), ele fez sozinho o import do authenticateUserController
+
+* O que é o axios e o que ele faz? - Ele faz comunicações HTTPs
+
+* O que é middleware que ela tanto fala?

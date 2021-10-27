@@ -1,0 +1,5 @@
+* Algumas bibliotecas você tem que importar a tipagem separado da biblioteca, quando fazer isso colocar a tipagem como dependencia de desenvolvimento
+
+* Para o express entender o Json precisamos colocar (variável).use(exoress.json())
+
+* Comunicação por HTTP ela é aberta e fechada a todo momento, enquanto a com web socket o cara pode abrir uma vez e ficar usando até alguma das partes desconectar(O socket.io ajuda nisso)
